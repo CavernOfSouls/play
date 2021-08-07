@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Entrance</title>
+		<link rel="stylesheet" href="style.css"></link>
+		<script src="gameFunctions.js"></script>
+	</head>
+
+	<body>
+		<div class= "lifeCounter">Stamina: <span id="stamina"></span></div>
+
+		<h2>The Entrance</h2>
+
+		<div class= "textBox">
+
+			<p> You walk into the cavern's entrance. It is already getting dark, so you light up your torch. You walk a few steps and get to a T-shaped juncture in the path.
+
+			<p> On the wall right in front of you, you notice some scribbles. Upon closer look, you can read:
+
+			<p> "If the crystal you seek, best be prepared! Should you go <span style="color:gold">Left</span>, perils would you face! Should you go <span style="color:gold">Right</span>, night would be lit with day"
+
+			<p> Right under the scribbles, you notice something written in finer print:
+
+			<p> "Bluff you, would we dare? Or double-dare? Or triple-dare?"
+
+			<p> Based on what you have just read, you must decide...
+
+		</div>
+
+		<p>
+			<a class="button" href="room02.html">Go left</a>
+    		<a class="button" href="room01.html">Go right</a>
+
+    	<script>
+    		let stamina = document.querySelector("#stamina");
+    		stamina.textContent = 3;
+    		logStamina();
+    	</script>
+	</body>
+</html>

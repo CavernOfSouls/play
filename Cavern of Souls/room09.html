@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>room09</title>
+		<link rel="stylesheet" href="style.css"></link>
+		<script src="gameFunctions.js"></script>
+	</head>
+
+	<body>
+		<div class= "lifeCounter">Stamina: <span id="stamina"></span></div>
+			<script>
+				let stamina = document.querySelector("#stamina");
+				callStamina()
+			</script>
+
+		<h2>The Laboratory</h2>
+
+		<div class = "textBox">
+
+			<p> You managed to secure your footing! You pick up the pace and quickly make it across the precipice. Taking one last look at the pool of shadows before leaving, you realize that they are in fact <span style="color:gold">trapped souls</span>. Perhaps this is why this place is called the Cavern of Souls...
+
+			<p> You arrive in a small room. You see a door, two bookshelves and a table. On the table, you notice a notebook as well as <span style="color:gold">three vials with colored liquids</span>. Upon closer inspection, all three vials also contain what appear to be identical <span style="color:gold">keys</span>.
+
+			<p> You try to open the door, but it's locked. Stepping back, you inspect the notebook. In it, you can read:
+
+			<p> "Greetings traveller! If you have made it this far, perhaps fate has been kind to you? Let's see if you will run out of luck! In front of you are three vials, each one containing a copy of the key that will set you free from my lab". Drink one and see if you are lucky enough to carry on...
+
+			<p> <span style="color:gold">"One is poisonous. So are the other two combined" <br> "One will refresh your body and mind" <br> "One will leave you with a bitter aftertaste".</span>
+
+			<p> As you finish reading, you start to grin. No need to drink, right? Just pour one of the vials on the ground. You try it, but nothing flows out... Perplexed, you try to break it, then the other two, but nothing happens...
+
+			<p> It looks like you have no other choice but to choose one vial and drink. Which one shall it be?
+
+
+		</div>
+
+		<p> 
+			<a class="button" onclick="purpleVial()">The one with a purple liquid</a>
+ 			<a class="button" onclick="clearVial()">The one with a clear liquid</a>
+ 			<a class="button" onclick="rustyVial()">The one with a rusty-red liquid</a>
+
+    	<script>
+    		let stamina = document.querySelector("#stamina");
+    		logStamina();
+    	</script>
+	</body>
+
+</html>
