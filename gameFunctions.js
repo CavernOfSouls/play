@@ -82,6 +82,10 @@ function sphynxRiddle() {
 	} else if (Answer == 7) {
 		alert("You have answered with wisdom, congratulations. You may go through...");
 		window.location = "room10.html";
+	}	else if (Answer == 241) {
+		alert("Wrong logic, right numeral system. I will let you through, but not unharmed...");
+		updateStamina();
+		window.location = "room16.html";
 	} else {
 		alert("Unfortunately, you are incorrect. Time to eat...");
 		youDied();
