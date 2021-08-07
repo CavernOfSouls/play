@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>room12</title>
+		<link rel="stylesheet" href="style.css"></link>
+		<script src="gameFunctions.js"></script>
+	</head>
+
+	<body>
+		<div class= "lifeCounter">Stamina: <span id="stamina"></span></div>
+			<script>
+				let stamina = document.querySelector("#stamina");
+				callStamina()
+			</script>
+
+		<h2>Dripstone Cave</h2>
+
+		<div class = "textBox">
+
+			<p> You get to a wide area of the cavern. On the ceiling you see hundreds of <span style="color:gold">stalagtites</span>. On the floor, just as many <span style="color:gold">stalagmites</span>.
+
+			<p> Suddenly, the room starts to shake as if it noticed your presence and didn't like it.
+
+			<p> About 100 meters across where you are, you see an exit. As you start running towards it, stalagtites begin to fall down to the ground. Beware! One wrong step and you will end up skewered.
+
+			<p> At this point, you have two options. Either you <span style="color:gold">run as fast as you can</span> and hope to get lucky, or you <span style="color:gold">take your time and watch out</span> for what may fall on you.
+
+			<p> Decide now!
+
+		</div>
+
+		<p> 
+			<a class="button" href="room13.html" onclick="updateStamina()">Run for it</a>
+ 			<a class="button" href="room14.html">Slow but careful</a>
+
+    	<script>
+    		let stamina = document.querySelector("#stamina");
+    		logStamina();
+    	</script>
+	</body>
+
+</html>

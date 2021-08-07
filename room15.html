@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>room15</title>
+		<link rel="stylesheet" href="style.css"></link>
+		<script src="gameFunctions.js"></script>
+	</head>
+
+	<body>
+		<div class= "lifeCounter">Stamina: <span id="stamina"></span></div>
+			<script>
+				let stamina = document.querySelector("#stamina");
+				callStamina()
+			</script>
+
+		<h2>The Sphynx</h2>
+
+		<div class = "textBox">
+
+			<p> Beyond the green door, you see the base of a pyramid! As you get closer to it, you are able to see its tip. Perched on top of the pyramid is... <span style="color:gold">a Sphynx</span>.
+
+			<p> "Welcome adventurer", the Sphynx says. "Congratulations on making it this far!"
+
+			<p> As the Sphynx spoke these words, some of the bricks making the front side of the pyramid begin to shift, revealing a <span style="color:gold">golden door</span>. On it, you notice markings but do not recognize them.
+
+			<p> The Sphynx suddently flies down and joins you at the base of the pyramid. "In order to continue your journey, I will ask you a question. If you answer correctly, I will grant you access to the pyramid. Else, I will make you my dinner... Do you agree?"
+
+			<p> You nod your head, as if you did have the choice...
+
+			<p> Here it goes: <br> <span style="color:gold">Centuries ago, the first humans to ever establish settlements did so on the land above the Cavern of Souls. They invented agriculture, and began to cultivate crops. To sum up the total yield of their crops, they also invented the first numeral system. On the golden door next to us is inscribed one of their numeral expressions. Tell me its value and you will have solved my riddle.</span>
+
+			<p> Upon further inspection of the markings, you see what is shown below. Input its value in the text box to answer the Sphynx.
+
+		</div>
+
+		<div class="dials">
+			<fieldset>
+				<legend>The markings on the door</legend>
+
+				<div>
+					 <img src="sphynx_riddle.JPG">
+				</div>
+
+				<div>
+					<input type="text" id="answer">
+				</div>
+			</fieldset>
+		</div>
+
+		<p> 
+			<a class="button" onclick="sphynxRiddle()">Final answer</a>
+
+    	<script>
+    		let stamina = document.querySelector("#stamina");
+    		logStamina();
+    	</script>
+	</body>
+
+</html>

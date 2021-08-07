@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>room20</title>
+		<link rel="stylesheet" href="style.css"></link>
+		<script src="gameFunctions.js"></script>
+	</head>
+
+	<body>
+		<div class= "lifeCounter">Stamina: <span id="stamina"></span></div>
+			<script>
+				let stamina = document.querySelector("#stamina");
+				callStamina()
+			</script>
+
+		<h2><span style="color:crimson">The Rusty Knife</span></h2>
+
+		<div class = "textBox">
+
+			<p> You quickly reach the skeleton and try to pry the <span style="color:red">pocket knife</span> out of its hand.
+
+			<p> Within seconds, Belzeguur jumps off its boulder and begins to fly straight at you!
+
+			<p> As you finally manage to take the knife, <span style="color:red">you accidently cut yourself...</span>
+
+			<p> The cut is very small, but burns more than expected. You notice that the blade is not actually rusty, but rather that it is drenched in a <span style="color:red">rust-colored liquid...</span>
+
+		</div>
+
+		<p> 
+			<a class="button" href="room22.html" onclick="updateStamina()">What happens next?</a>
+
+		<script>
+    		let stamina = document.querySelector("#stamina");
+    		logStamina();
+    	</script>
+
+	</body>
+			
+	</body>
+
+</html>
